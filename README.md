@@ -97,8 +97,9 @@ public BluetoothPrinter bluetoothPrinter;
  @Override
     protected void onStop() {
         super.onStop();
-     if (bluetoothPrinter.isBluetoothConnected())
+     if (bluetoothPrinter.isBluetoothConnected()){
                 bluetoothPrinter.mPrinterService.stop();
+      }
  }
 ```
 13. Check connection and print content
