@@ -1,6 +1,6 @@
 # BluetoothPrinter
 
-Android thermal printers via bluetooth connection, easy connection and documents printing.
+Android thermal printers via bluetooth connection.
 
 ## TODO
 Follow 13 steps on this project to your integrate Bluetooth printer
