@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--TODO 2: create activity_bluetooth.mxl-->
+    <!--TODO 1: create activity_bluetooth.mxl-->
 
     <TextView android:id="@+id/title_paired_devices"
         android:layout_width="match_parent"

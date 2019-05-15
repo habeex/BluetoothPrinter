@@ -19,7 +19,7 @@ import static com.habeexdev.bluetoothprinter.printer.BluetoothPrinter.REQUEST_EN
 
 public class MainActivity extends AppCompatActivity {
 
-    //TODO 8: Declaration BluetoothPrinter
+    //TODO 9: Declaration BluetoothPrinter
     //BluetoothPrinter declaration
     public BluetoothPrinter bluetoothPrinter;
 
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //TODO 9: Initialize
+        //TODO 10: Initialize
         //Initialize BluetoothPrinter
         bluetoothPrinter = new BluetoothPrinter(MainActivity.this);
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                //TODO 12: Check connection and print content
+                //TODO 13: Check connection and print content
                 //check if device is already connected to a Bluetooth Printer device
                 if (bluetoothPrinter.isBluetoothConnected()){
 
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //TODO 10: add onActivityResult
+    //TODO 11: add onActivityResult
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(D) Log.d(TAG, "onActivityResult " + resultCode + " requestCode " + requestCode);
         switch (requestCode) {
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                     } catch (Exception e) {
-                        // TODO 13: handle exception
+                        // TODO 14: handle exception
                         Log.e(TAG, "Bluetooth Exception");
                     }
 
@@ -110,12 +110,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     @Override
     protected void onStop() {
         super.onStop();
 
-        //TODO 11: Disconnect bluetooth device
+        //TODO 12: Disconnect bluetooth device
         //disconnect bluetoothPrinter
         if (bluetoothPrinter.isBluetoothConnected())
             bluetoothPrinter.mPrinterService.stop();

@@ -18,7 +18,7 @@ import java.io.IOException;
 
 import static android.support.constraint.Constraints.TAG;
 
-// TODO 5: create BluetoothPrinter
+// TODO 6: create BluetoothPrinter
 public class BluetoothPrinter {
 
     //bluetooth

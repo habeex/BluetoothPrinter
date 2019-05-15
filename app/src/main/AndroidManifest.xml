@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.habeexdev.bluetoothprinter">
 
-    <!--TODO 6: Declare BLUETOOTH permission-->
+    <!--TODO 7: Declare BLUETOOTH permission-->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <!--TODO 7: add BluetoothActivity-->
+        <!--TODO 8: add BluetoothActivity-->
         <activity
             android:name=".printer.BluetoothActivity"
             android:configChanges="orientation|keyboardHidden"
