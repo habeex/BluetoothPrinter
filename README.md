@@ -3,7 +3,7 @@
 Android thermal printers via bluetooth connection.
 
 ## TODO
-Follow 13 steps on this project to your universal integrate Bluetooth printer
+Follow 13 steps on this project to integrate your universal Bluetooth printer
 
 1. Create activity_bluetooth.mxl
 2. Define bluetooth string text
