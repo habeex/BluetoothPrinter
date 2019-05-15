@@ -116,7 +116,8 @@ public class MainActivity extends AppCompatActivity {
 
         //TODO 12: Disconnect bluetooth device
         //disconnect bluetoothPrinter
-        if (bluetoothPrinter.isBluetoothConnected())
+        if (bluetoothPrinter.isBluetoothConnected()) {
             bluetoothPrinter.mPrinterService.stop();
+        }
     }
 }
