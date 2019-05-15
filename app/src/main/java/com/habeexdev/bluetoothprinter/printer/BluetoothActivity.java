@@ -74,9 +74,9 @@ public class BluetoothActivity extends Activity {
         // Initialize array adapters. One for already paired devices and
         // one for newly discovered devices
         mPairedDevicesArrayAdapter = new ArrayAdapter<String>(this,
-                R.layout.blutooth_device_name);
+                R.layout.bluetooth_device_name);
         mNewDevicesArrayAdapter = new ArrayAdapter<String>(this,
-                R.layout.blutooth_device_name);
+                R.layout.bluetooth_device_name);
 
         // Find and set up the ListView for paired devices
         ListView pairedListView = findViewById(R.id.paired_devices);
